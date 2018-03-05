@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Grades</string>
+
+    <string name="title_activity_main">main</string>
+
+    <string name="add_description">add one more subject</string>
+    <string name="delete_description">delete this subject</string>
+    <string name="add_hint">Enter title</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:gravity="center_vertical">
+
+    <ImageButton
+        android:src="@drawable/ic_remove_black_24dp"
+        style="@style/SimpleButton"
+        android:contentDescription="@string/delete_description"
+        android:scaleType="centerCrop"
+        android:id="@+id/delete_button"
+        android:background="@color/delete"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        tools:text="example"
+        style="@style/SubjectName"
+        android:layout_weight="1"
+        android:id="@+id/name_view"/>
+
+    <Button
+        style="@style/SimpleButton"
+        android:id="@+id/grade_view"/>
+
+
+</LinearLayout>
