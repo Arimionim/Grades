@@ -5,5 +5,7 @@
 
     <string name="add_description">add one more subject</string>
     <string name="delete_description">delete this subject</string>
-    <string name="add_hint">Enter title</string>
+    <string name="add_hint">Title</string>
+    <string name="new_subject_title">New subject</string>
+
 </resources>

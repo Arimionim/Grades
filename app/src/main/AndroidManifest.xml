@@ -18,7 +18,7 @@
         <activity
             android:name=".AddNewSubject"
             android:theme="@style/Theme.AppCompat.Light.Dialog"
-            android:label="New">
+            android:label="@string/new_subject_title">
         </activity>
     </application>
 

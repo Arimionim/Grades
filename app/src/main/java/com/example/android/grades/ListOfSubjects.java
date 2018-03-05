@@ -3,15 +3,8 @@ package com.example.android.grades;
 import java.util.ArrayList;
 
 /* list of subjects */
-public class ListOfSubjects {
+public class  ListOfSubjects {
     private ArrayList<SubjectItem> list = new ArrayList<>();
-
-    /* constructor */
-    ListOfSubjects(String[] inputSubjects) {
-        for (String inputSubject : inputSubjects) {
-            list.add(new SubjectItem(inputSubject, "F"));
-        }
-    }
 
     /* return requested Subject by index */
     public SubjectItem get(int index){

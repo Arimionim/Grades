@@ -16,32 +16,32 @@
         android:layout_marginBottom="8dp"
         android:layout_marginRight="24dp"
         android:layout_marginEnd="24dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginStart="16dp"/>
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"/>
 
     <TextView android:id="@+id/accept_enter_button"
-        android:layout_width="80dp"
+        android:layout_width="60dp"
         android:layout_height="40dp"
         android:text="@android:string/ok"
-        android:textColor="@color/colorPrimary"
+        android:textColor="@color/colorAccent"
         android:textSize="16sp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:layout_margin="16dp"
+        android:layout_margin="8dp"
         android:gravity="center"
-        android:background="@color/background"/>
+        android:background="@color/background" />
 
     <TextView android:id="@+id/decline_enter_button"
-        android:layout_width="80dp"
+        android:layout_width="60dp"
         android:layout_height="40dp"
         android:text="@android:string/cancel"
-        android:textColor="@color/colorPrimary"
+        android:textColor="@color/colorAccent"
         android:textSize="16sp"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_margin="16dp"
+        android:layout_toLeftOf="@id/accept_enter_button"
+        android:layout_toStartOf="@id/accept_enter_button"
+        android:layout_margin="8dp"
         android:gravity="center"
         android:background="@color/background"/>
 

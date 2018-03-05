@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_main">главный</string>
+    <string name="add_description">добавить еще один</string>
+    <string name="delete_description">Удалить этот предмет</string>
+    <string name="add_hint">Название</string>
+    <string name="app_name">Оценки</string>
+    <string name="new_subject_title">Новый предмет</string>
+</resources>
