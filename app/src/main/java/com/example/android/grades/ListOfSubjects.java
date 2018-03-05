@@ -1,7 +1,5 @@
 package com.example.android.grades;
 
-import android.util.Log;
-
 import java.util.ArrayList;
 
 /* list of subjects */
@@ -9,7 +7,7 @@ public class ListOfSubjects {
     private ArrayList<SubjectItem> list = new ArrayList<>();
 
     /* constructor */
-    public void ListOfSubjects(String[] inputSubjects){
+    ListOfSubjects(String[] inputSubjects) {
         for (String inputSubject : inputSubjects) {
             list.add(new SubjectItem(inputSubject, "F"));
         }
@@ -27,7 +25,7 @@ public class ListOfSubjects {
 
     /* add new subject by String name */
     void add(String name){
-        list.add(new SubjectItem(name, "F"));
+        list.add(new SubjectItem(name, 0));
     }
 
     /* add new subject by exemplar of SubjectItem */

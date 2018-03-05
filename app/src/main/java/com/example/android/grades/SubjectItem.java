@@ -5,6 +5,8 @@ import android.graphics.Color;
 public class SubjectItem {
     private int currentGrade = 0;
     private String name;
+
+    /* to add new grade you have to init number, and color of grade */
     static private String[] allGrades = {"F", "E", "D", "C", "B", "A"};
     private String[] allColors = {"#F44336", "#FF9800", "#FFC107", "#FFEB3B", "#CDDC39", "#4CAF50"};
 
